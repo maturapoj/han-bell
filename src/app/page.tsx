@@ -155,6 +155,7 @@ export default function Home() {
     const dateStr = now.toLocaleDateString("th-TH", { year: "numeric", month: "long", day: "numeric" });
     const timeStr = now.toLocaleTimeString("th-TH", { hour: "2-digit", minute: "2-digit" });
     const num = String(now.getTime()).slice(-6);
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- client-only value, set once after mount to avoid SSR/CSR date mismatch
     setBillMeta(`${dateStr} ${timeStr} · เลขที่ #${num}`);
 
     try {
