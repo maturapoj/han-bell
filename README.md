@@ -6,8 +6,6 @@ A receipt-styled bill-splitting web app. Add the food items and the friends spli
 
 ## Demo
 
-<!-- TODO: add a screen recording. Record a short clip of the flow below (e.g. with ScreenToGif, ShareX, or macOS screen recording), convert it to `demo.gif`, and drop it in `docs/demo.gif` — it will show up here automatically. -->
-
 ![Demo](docs/demo.gif)
 
 ## Features
